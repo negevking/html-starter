@@ -6,9 +6,7 @@
 }
 
 @media (max-width: 767.98px) {
-    .desktop-nav {
-        display: none;
-    }
+
     .bio-section {
         display: flex;
         align-items: center;
@@ -31,21 +29,7 @@
     }
 }
 
-@media (min-width: 768px) {
-    .mobile-nav {
-        display: none;
-    }
 
-    /* .about-me {
-        position: relative;
-    }
-            
-    .about-me div {
-        position: absolute;
-        bottom: 0;
-        left: 0;    
-    } */
-}
 
 body {
     display: flex;
