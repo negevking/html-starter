@@ -30,9 +30,16 @@
         color: black;
     }
 }
+
 @media (min-width: 768px) {
     .mobile-nav {
         display: none;
+    }
+
+    .about-me {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
     }
 }
 
