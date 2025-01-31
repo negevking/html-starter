@@ -6,6 +6,17 @@
     <title>Projects</title>
     <link rel="stylesheet" href="/styles/style.css">
 </head>
+
+<script>
+    if (window.location.pathname !== "/pages/index.html" && window.location.pathname !== "/") {
+        fetch('/navbar.html')
+            .then(response => response.text())
+            .then(data => {
+                document.body.insertAdjacentHTML('afterbegin', data);
+            });
+    }
+</script>
+
 <body>
     <header>
         <h1>My Projects</h1>
