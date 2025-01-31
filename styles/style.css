@@ -1,3 +1,32 @@
+/* Apply height: 100vh on larger devices */
+@media (min-width: 768px) {
+    body {
+        height: 100vh;
+    }
+}
+
+@media (max-width: 767.98px) {
+    .desktop-nav {
+        display: none;
+    }
+    .bio-section {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+    }
+    .bio-photo {
+        width: 50px;
+        height: 50px;
+        margin-right: 10px;
+    }
+}
+@media (min-width: 768px) {
+    .mobile-nav {
+        display: none;
+    }
+}
+
 body {
     display: flex;
     align-items: center;
@@ -27,20 +56,3 @@ body {
     object-fit: cover;
 }
 
-/* Apply height: 100vh on larger devices */
-@media (min-width: 768px) {
-    body {
-        height: 100vh;
-    }
-}
-
-@media (max-width: 767.98px) {
-    .desktop-nav {
-        display: none;
-    }
-}
-@media (min-width: 768px) {
-    .mobile-nav {
-        display: none;
-    }
-}
