@@ -36,11 +36,15 @@
         display: none;
     }
 
-    /* .about-me {
-        display: flex;
-        flex-direction: column;
-        justify-content: flex-end;
-    } */
+    .about-me {
+        position: relative;
+    }
+            
+    .about-me div {
+        position: absolute;
+        bottom: 0;
+        left: 0;    
+    }
 }
 
 body {
