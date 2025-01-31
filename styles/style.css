@@ -16,7 +16,7 @@ body {
 }
 .bio-photo {
     width: 150px;
-    height: auto;
+    height: 150px;
     border-radius: 50%;
     object-fit: cover;
 }
