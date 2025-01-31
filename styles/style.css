@@ -36,11 +36,11 @@
         display: none;
     }
 
-    .about-me {
+    /* .about-me {
         display: flex;
         flex-direction: column;
         justify-content: flex-end;
-    }
+    } */
 }
 
 body {
