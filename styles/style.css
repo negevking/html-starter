@@ -36,7 +36,7 @@
         display: none;
     }
 
-    .about-me {
+    /* .about-me {
         position: relative;
     }
             
@@ -44,7 +44,7 @@
         position: absolute;
         bottom: 0;
         left: 0;    
-    }
+    } */
 }
 
 body {
