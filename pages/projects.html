@@ -9,7 +9,7 @@
 
 <script>
     if (window.location.pathname !== "/pages/index.html" && window.location.pathname !== "/") {
-        fetch('/navbar.html')
+        fetch('/components/navbar.html')
             .then(response => response.text())
             .then(data => {
                 document.body.insertAdjacentHTML('afterbegin', data);
