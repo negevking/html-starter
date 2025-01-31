@@ -65,3 +65,6 @@ body {
     object-fit: cover;
 }
 
+.text-justify {
+    text-align: justify;
+  }
