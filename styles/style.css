@@ -29,7 +29,14 @@
     }
 }
 
-
+.navbar-toggler {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* .navbar-toggler span {
+    margin-left: 5px;
+} */
 
 body {
     display: flex;
